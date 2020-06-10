@@ -1,4 +1,4 @@
-# web_app/route/twitter_routes.py
+# web_app/routes/twitter_routes.py
 
 from flask import Blueprint, render_template, jsonify
 from web_app.models import db, User, Tweet, parse_records
